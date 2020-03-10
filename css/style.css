@@ -1,0 +1,96 @@
+/* Colours:;
+#DDD - Grey
+#F5F5F5 - Lighter
+#6495ED - Blue */
+
+/*Styles:*/
+body {
+	font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+	font-size: 1rem;
+	background-color: #F5F5F5;
+	line-height: 1.6;
+}
+h1 {
+	padding: 0;
+	margin: 0;
+/*	Just incase headers are to be added later, this takes away space created from a blank one.*/
+}
+.wrapper, header {
+	max-width: 50rem;
+	margin: auto;
+}
+header {
+	text-align: center;
+}
+h1 {
+	font-size: 1rem;
+}
+body legend {
+	font-size: 2rem;
+}
+legend {
+	background-color: #fff;
+	border: 2px solid grey;
+	padding: 10px;
+}
+fieldset {
+	background-color: #ddd;
+	border-width: 3px;
+	border-style: grey solid;
+	padding: auto;
+	margin: 0;
+	max-width: 400px;
+}
+fieldset div {
+	padding-top: 15px;
+}
+#submit-button {
+	background-color: #6495ED;
+	color: #fff;
+	width: 350px;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 20px;
+	border-style: none;
+}
+textarea {
+	width: 350px;
+}
+
+/*Media Queries*/
+@media (min-width: 400px) {
+	fieldset {
+		max-width: 730px;
+	}
+	#email-section, #name-section {
+		clear: right;
+		float: left;
+	}
+	#name-section {
+		padding-right: 20px;
+	}
+	.large-box {
+		clear: right;
+		float: left;
+		padding-right: 20px;
+	}
+	#submit-button {
+		clear: left;
+		float: left;
+		width: 100px;
+	}
+}
+@media (min-width: 640px) {
+	.wrapper {
+	max-width: 80%;
+	margin: auto;
+	}
+}
+@media (min-width: 800px) {
+	body {
+		max-width: 1000px
+	}
+	.wrapper {
+		max-width: 800px;
+	}
+}

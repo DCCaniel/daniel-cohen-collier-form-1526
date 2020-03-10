@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="./css/style.css">
+   <title>Form Validation</title>
+</head>
+<body>
+	<header>
+		<h1>
+			<!-- Form Validation -->
+		</h1>
+	</header>
+	<div class="wrapper">
+		<form action=""> <!-- <form onsubmit="return validateForm()"> -->
+		    <fieldset>
+		        <legend>Form Assignment</legend>
+		        <div class="text-box" id="name-section">
+		            <label>Full Name<br></label>
+		            <input type="text" id="fullname" name="fullname" value="" size="55">
+		        </div>
+		        <div class="text-box" id="email-section">
+		            <label>Email<br></label>
+		            <input type="text" id="email" name="email" value="" size="55">
+		        </div>
+		        <div class="large-box" id="message-section">
+		        	<label>Message<br></label>
+		        	<textarea type="text" id="message" name="message" value=""></textarea>
+		        </div>
+		        <div class="submit-button">
+		            <input type="submit" value="Submit" id="submit-button" name="submit-button">
+		        </div>
+		    </fieldset>
+		</form>
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html> 
